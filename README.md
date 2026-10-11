@@ -364,6 +364,16 @@ uvx pocket-tts generate \
 </details>
 
 <details>
+<summary><a href="https://huggingface.co/alperiox/pocket-tts-turkish">Pocket TTS Turkish</a> by <a href="https://huggingface.co/alperiox">@alperiox</a>, 6 layers</summary>
+
+```bash
+uvx pocket-tts generate \
+  --config hf://alperiox/pocket-tts-turkish/turkish_6l.yaml@13d9b4ad051ce9d5ef5bfb8af9724be01ad2fd31 \
+  --text "Merhaba, bugün hava çok güzel."
+```
+</details>
+
+<details>
 <summary><a href="https://huggingface.co/shefowl/pocket-tts-polish-6l">Pocket TTS Polish</a> by <a href="https://huggingface.co/shefowl">@shefowl</a>, 6 layers</summary>
 
 ```bash
